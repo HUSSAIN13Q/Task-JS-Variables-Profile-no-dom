@@ -8,7 +8,11 @@
  * 4. funFact       -> assign it a value of some fun fact about yourself
  * 5. image         -> assign it a value of a url of your image or ant image that represents you online
  */
-
+const fullName="hussain alsaffar";
+const yearOfBirth=2000;
+const hobby="handyman work";
+const funFact=" my foot size is 49";
+const image="bcdbcjdncjdnhjcdbhcnbdjcxnjhedndxj";
 // Part 1 answer 👇🏻 ...
 
 /**
@@ -23,6 +27,12 @@
  * Uncomment the following lines and start interpolating.
  * You can uncomment a line by removing the // at the start
  */
+console.log(`My name is ${fullName}`);
+console.log(`I am ${yearOfBirth}`);
+console.log(`My hobby is doing some  ${hobby}`);
+const fullNameString =`My name is ${fullName}`;
+const ageString =`I am ${2024-yearOfBirth}`;
+const hobbyString =`My hobby is ${hobby}`;
 
 // const fullNameString = `My name is ${}`;
 // const ageString =
@@ -36,30 +46,37 @@
 let stars = 0;
 
 function incrementBy1() {
-  // Increment stars by 1 👇🏻
+  stars=stars+1 
+  console.log(stars)
+
 }
 function decrementBy1() {
-  // decrement stars by 1 👇🏻
+  stars= stars-1
+  console.log(stars)
+
 }
 
 function incrementBy2() {
-  // Increment stars by 2 👇🏻
+  stars=stars+2
+  console.log(stars)
+
 }
 function decrementBy2() {
-  // decrement stars by 2 👇🏻
+  stars=stars-2
+  console.log(stars)
 }
 
 // TODO: Uncomment these variables as you work on them
 // Make sure they're all uncommented before you push your solution!
 module.exports = {
-  // fullName,
-  // yearOfBirth,
-  // hobby,
-  // funFact,
-  // image,
-  // fullNameString,
-  // ageString,
-  // hobbyString,
+  fullName,
+  yearOfBirth,
+  hobby,
+  funFact,
+  image,
+  fullNameString,
+  ageString,
+  hobbyString,
   incrementBy1,
   incrementBy2,
   decrementBy1,
