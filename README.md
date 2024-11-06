@@ -1,6 +1,6 @@
 # JS-Variables
 
-## Instructions
+## Instructionsj
 
 - Fork and clone [this repository](https://github.com/JoinCODED/TASK-JS-Variables-Profile-no-dom) to your `Development` folder.
   - ```bash
