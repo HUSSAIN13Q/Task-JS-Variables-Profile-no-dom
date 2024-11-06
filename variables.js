@@ -34,6 +34,7 @@ const fullNameString =`My name is ${fullName}`;
 const ageString =`I am ${2024-yearOfBirth}`;
 const hobbyString =`My hobby is ${hobby}`;
 
+
 // const fullNameString = `My name is ${}`;
 // const ageString =
 // const hobbyString =
